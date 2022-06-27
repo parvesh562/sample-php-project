@@ -3,7 +3,7 @@
   require_once 'constants/SampleCodeConstants.php';
   use net\authorize\api\contract\v1 as AnetAPI;
   use net\authorize\api\controller as AnetController;
-
+   also
   define("AUTHORIZENET_LOG_FILE", "phplog");
 
 function createAnAcceptPaymentTransaction($amount)
