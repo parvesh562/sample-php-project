@@ -15,6 +15,7 @@ function createAnAcceptPaymentTransaction($amount)
     $merchantAuthentication->setTransactionKey(\SampleCodeConstants::MERCHANT_TRANSACTION_KEY);
     
     // Set the transaction's refId
+    // cool one thing changged
     $refId = 'ref' . time();
 
     // Create the payment object for a payment nonce
